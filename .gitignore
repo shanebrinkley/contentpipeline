@@ -1,0 +1,23 @@
+# Never commit footage or working media — this repo is the SYSTEM, not the content.
+Streams/
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.ass
+*.srt
+!templates/**          # keep template placeholders
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
